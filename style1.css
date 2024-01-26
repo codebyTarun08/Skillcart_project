@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Satisfy&display=swap');
+
+p {
+    font-family: 'Cantarell', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Satisfy', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+nav {
+    width: 100%;
+    background-color: rgb(59, 108, 92);
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+.navlist {
+    width: 60%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 15px 50px;
+    font-size: larger;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 15);
+}
+
+.navbar ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.started {
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.started h1 {
+    margin: 10px;
+    font-size: 35px;
+}
+
+.started p {
+    font-size: 20px;
+    width: 700px;
+}
+
+.coursegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(212, 212, 212, 0.178);
+    gap: 20px;
+}
+
+.c {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    transition: transform 0.8s;
+    margin: 30px auto;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.c:hover {
+    transform: scale(1.04);
+    box-shadow: 10px 10px 50px 10px rgb(128, 128, 128);
+}
+
+.c h2 {
+    font-size: 30px;
+}
+
+.c img {
+    width: 150px;
+    height: 138px;
+}
+
+.btn {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .2s ease-in;
+}
+
+.btn:hover {
+    transform: scale(1.06);
+}
+
+.btn1 {
+    background-color: rgb(179, 97, 255);
+}
+
+.btn2 {
+    background-color: rgb(249, 132, 255);
+}
+
+.foot {
+    height: 300px;
+    display: flex;
+    /* background: linear-gradient(0.2turn,rgb(230, 0, 255),rgb(187, 22, 187),rgb(168, 0, 183)); */
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+}
+
+.foot h4 {
+    font-size: 25px;
+    color: rgb(174, 174, 174);
+}
+
+.siteinfo {
+    width: 25%;
+    margin: 10px;
+}
+
+.siteinfo img {
+    width: 100%;
+}
+
+.loc {
+    width: 25%;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 20px;
+    transition: transform .2s;
+}
+
+.contact {
+    width: 25%;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+}
+
+.other {
+    width: 25%;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+}
+
+ul li:hover {
+    transform: translate(20px);
+    color: rgb(255, 199, 255);
+}
+
+.login {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.39)), url(courses/logback.jpg);
+    background-size: cover;
+}
+
+.loghead {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 20px auto;
+}
+
+.logpara {
+    margin: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 80vw;
+}
+
+.logbody {
+    border-radius: 50px;
+    display: flex;
+    margin: 20px 40px;
+    padding: 30px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 251, 222, 0.315);
+    /* background: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,0.39)),url(courses/funkback.jpg);
+    background-size: 1597px; */
+}
+
+.logbody .logsec1 {
+    width: 60%;
+}
+
+.logbody .logsec1 img {
+    margin-left: 90px;
+}
+
+.logbody .logsec2 {
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 40%;
+}
+
+.logbody .logsec2 h1 {
+    text-align: center;
+}
+
+.form {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.form .reset a {
+    color: rgb(0, 21, 255);
+    font-weight: 700;
+    transition: .3s ease-out;
+}
+
+.form .reset a:hover {
+    color: orange;
+}
+
+.form .reset a {
+    text-decoration: none;
+}
+
+.return {
+    margin: 20px;
+    color: #ffffff;
+    width: 30%;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.8em;
+    background: #070707;
+    cursor: pointer;
+    border: 3px solid rgb(116, 227, 255);
+    transition: 0.3s ease-out;
+}
+
+.return:hover {
+    translate: scale(1.07);
+}
+
+.footerhr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg a {
+    color: rgb(4, 83, 255);
+    font-weight: 700;
+    transition: .3s ease-out;
+    text-decoration: none;
+}
+
+.reg a:hover {
+    color: rgb(255, 136, 0);
+}
+
+.formpara {
+    color: #ff0000;
+    margin: 10px;
+    text-align: center;
+}
+
+.ret {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ret .retpara {
+    margin: 30px;
+}
+
+.ret .return {
+    background: rgb(207, 207, 207);
+    border: 2px solid rgb(255, 0, 0);
+    width: 15%;
+    transition: .2s ease-out;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.ret .return a {
+    text-decoration: none;
+}
+
+.return:hover {
+    transform: scale(1.08);
+}
+.cartbody{
+    margin: 20px;
+}
+.cartbody .carthead{
+    background-color: rgb(219, 214, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.cartbody .carthead ul{
+    display: flex;
+}
+.cartbody .carthead ul a{
+    text-decoration: none;
+    color: #070707;
+}
+.cartbody .carthead p{
+    width: 60%;
+}
+.cartbody .cartmain{
+    display: flex;
+    gap: 10px;
+}
+.cartbody .cartmain .cart-col-1{
+    width: 60%;
+}
+.cartbody .cartmain .cart-col-2{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+}
+.cartbody .cartmain .cart-col-1 table{
+    background-color: rgb(219, 214, 214);
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+}
+.cartbody .cartmain .cart-col-2 h2{
+    text-align: center;
+}
